@@ -5,9 +5,9 @@ name: Check Builds For Errors
 
 on:
   push:
-    branches: [main]
+    branches: [1.15.2]
   pull_request:
-    branches: [main]
+    branches: [1.15.2]
 
 jobs:
   build:

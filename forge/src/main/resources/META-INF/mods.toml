@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[35,)"
+loaderVersion = "*"
 issueTrackerURL = "https://github.com/trikzon/transparent/issues"
 license = "MIT"
 
@@ -19,13 +19,13 @@ Allows resource packs to make entities support transparency.
 [[dependencies.transparent]]
 modId = "forge"
 mandatory = true
-versionRange = "[35,)"
+versionRange = "31"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.transparent]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.16.2,)"
+versionRange = "1.15.*"
 ordering = "NONE"
 side = "BOTH"

@@ -14,7 +14,7 @@
     },
     "license": "MIT",
     "icon": "assets/transparent/icon.png",
-    "environment": "client",
+    "environment": "*",
     "entrypoints": {
         "client": [
             "com.trikzon.transparent.client.fabric.TransparentClientFabric"
@@ -25,17 +25,13 @@
     ],
     "depends": {
         "fabricloader": ">=0.7.4",
-        "minecraft": ">=1.16.2"
+        "minecraft": "1.15.*"
     },
     "suggests": {
         "flamingo": "*"
     },
     "custom": {
-        "modmenu": {
-            "links": {
-                "transparent.discord": "https://discord.gg/aqXkvbJ"
-            },
-            "badges": []
-        }
+        "modmenu:api": false,
+        "modmenu:clientSideOnly": true
     }
 }

@@ -1,6 +1,6 @@
 plugins {
     id "architectury-plugin" version "3.0.95"
-    id "forgified-fabric-loom" version "0.6.74" apply false
+    id "forgified-fabric-loom" version "0.6.72" apply false
 }
 
 architectury {
@@ -60,5 +60,11 @@ allprojects {
 
     java {
         withSourcesJar()
+    }
+}
+
+allprojects {
+    architectury {
+        transformerVersion = "2.1.35"
     }
 }
